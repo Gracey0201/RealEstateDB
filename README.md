@@ -5,20 +5,20 @@ Database Normalization is a methodical strategy for arranging data within a data
 
 ## Objectives
 This assignment will help guide through the process of creating and normalizing a relational database up to the third and fourth normal forms (3NF and 4NF)using PostgreSQL with the PostGIS extension.It involves the following tasks;
--Creating an initial table structure for storing property details.
--Progressively normalizing the table structure to achieve Third Normal Form (3NF) and Fourth Normal Form (4NF).
--Utilizing PostgreSQL as the database management system.
--Implementing the PostGIS extension in PostgreSQL for handling spatial data.
+- Creating an initial table structure for storing property details.
+- Progressively normalizing the table structure to achieve Third Normal Form (3NF) and Fourth Normal Form (4NF).
+- Utilizing PostgreSQL as the database management system.
+- Implementing the PostGIS extension in PostgreSQL for handling spatial data.
 
 *italic*.Understanding and applying the principles of 3NF and 4NF  is essential in creating well-structured, efficient, and reliable relational databases. They provide a systematic approach to organizing data, which leads to better performance, easier maintenance, and increased data quality*italic*.
 
 ### Importance of 3NF
 - It helps eliminate transitive dependency from a database table that can lead to storage inefficiencies and increase the risk of inconsistencies.
--3NF is important for maintaining a well-defined and efficient database that ensures data accuracy, reduces redundancy, and supports seamless adaptability to changes in the system's requirements
+- 3NF is important for maintaining a well-defined and efficient database that ensures data accuracy, reduces redundancy, and supports seamless adaptability to changes in the system's requirements
 
 ### Importance of 3NF
 - 4NF is crucial because it takes normalization a step further by addressing multi-valued dependencies that often lead to data redundancy. Addressing this multi-valued will lead to more efficient use of storage space.
--Normalizing database to 4NF can enhance data integrity, ensuring that the data in the database remains accurate and reliable.
+- Normalizing database to 4NF can enhance data integrity, ensuring that the data in the database remains accurate and reliable.
 
 ### Code Block used for this assignment.
 `CREATE EXTENSION postgis;`
@@ -171,19 +171,19 @@ _This query is used to find properties within a certain radius of the given loca
 ![This is the screenshot of Propertyutilities table](Images/Propertyutilities_table.PNG)
 ![This is the screenshot of Propertyzoning table](Images/Propertyzoning_table.PNG)
 ### Challenges Encountered
--Due to frequent modification to the initial table created which also often require adjustments across the other tables created, this adaptability was challenging for me to manage effectively. 
+- Due to frequent modification to the initial table created which also often require adjustments across the other tables created, this adaptability was challenging for me to manage effectively. 
 
--I faced difficulties capturing screenshots of my Propertydetails table to update my image file after making some changes to the table. Even after dropping the table, I still encountered issues, which prevented me from retrieving the initial details of the table. Consequently, I decided to delete the entire database, create a new one, and then re-run the queries to finally obtain the Propertydetails table.
+- I faced difficulties capturing screenshots of my Propertydetails table to update my image file after making some changes to the table. Even after dropping the table, I still encountered issues, which prevented me from retrieving the initial details of the table. Consequently, I decided to delete the entire database, create a new one, and then re-run the queries to finally obtain the Propertydetails table.
 
--Part of my challenge was also mistakenly writing queries that added exiting information to the Propertydetails table thereby leading to duplication of information.
+- Part of my challenge was also mistakenly writing queries that added exiting information to the Propertydetails table thereby leading to duplication of information.
 
 
 ### Solution
--To this challenge, I resolved to taking snapshots of the database before making changes, I can revert to the snapshot to retrieve the initial details thereby providing accurate and up-to-date visuals.
+- To this challenge, I resolved to taking snapshots of the database before making changes, I can revert to the snapshot to retrieve the initial details thereby providing accurate and up-to-date visuals.
 
--I learned from every challenge I went through during this assignment; I focused on understanding the challenges and how the modifications of the tables affect each table and data generated which made my work less overwhelming.
+- I learned from every challenge I went through during this assignment; I focused on understanding the challenges and how the modifications of the tables affect each table and data generated which made my work less overwhelming.
 
--I learned a new way of deleting extra information from a table when information is duplicated through the help of the TA.
+- I learned a new way of deleting extra information from a table when information is duplicated through the help of the TA.
 
 ## Conclusion
 This assignment focuses on providing guidinance to the process of creating and normalizing a relational database up to the Third Normal Form (3NF) and Fourth Normal Form (4NF) using PostgreSQL with the PostGIS extension which involved progressively normalizing the structure, utilizing PostgreSQL as the database management system, and implementing the PostGIS extension for spatial data. By addressing transitive dependencies and multi-valued dependencies associated with data, the assignment aims to eliminate data redundancy, enhance data integrity, and promote efficiency in storage space utilization. Ultimately, the goal is to create a well-defined, efficient, and adaptable database that ensures data accuracy and reliability.
