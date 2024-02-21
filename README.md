@@ -69,7 +69,7 @@ VALUES
 ('56 Birch Street', 'Worcester', 'MA', 'USA', 'Residential', 'Internet', 
  ST_GeomFromText('POINT(42.2514315 -71.8287747)', 4326), 
  103872)
-;'
+;`
 
 `INSERT INTO PropertyDetails 
 (Address, City, State, Country, ZoningType, Utility, GeoLocation, CityPopulation)
