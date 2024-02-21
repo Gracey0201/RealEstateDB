@@ -187,7 +187,7 @@ _This query is used to find properties within a certain radius of the given loca
 -I learned a new way of deleting extra information from a table when information is duplicated through the help of the TA.
 
 ## Conclusion
-This assignment focuses on PROVIDING guidinance to the process of creating and normalizing a relational database up to the Third Normal Form (3NF) and Fourth Normal Form (4NF) using PostgreSQL with the PostGIS extension which involved progressively normalizing the structure, utilizing PostgreSQL as the database management system, and implementing the PostGIS extension for spatial data. By addressing transitive dependencies and multi-valued dependencies associated with data, the assignment aims to eliminate data redundancy, enhance data integrity, and promote efficiency in storage space utilization. Ultimately, the goal is to create a well-defined, efficient, and adaptable database that ensures data accuracy and reliability.
+This assignment focuses on providing guidinance to the process of creating and normalizing a relational database up to the Third Normal Form (3NF) and Fourth Normal Form (4NF) using PostgreSQL with the PostGIS extension which involved progressively normalizing the structure, utilizing PostgreSQL as the database management system, and implementing the PostGIS extension for spatial data. By addressing transitive dependencies and multi-valued dependencies associated with data, the assignment aims to eliminate data redundancy, enhance data integrity, and promote efficiency in storage space utilization. Ultimately, the goal is to create a well-defined, efficient, and adaptable database that ensures data accuracy and reliability.
 
 
 
