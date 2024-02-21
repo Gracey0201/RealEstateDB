@@ -24,7 +24,7 @@ This assignment will help guide through the process of creating and normalizing 
 `CREATE EXTENSION postgis;`
 _This including this query at the start of sql script helps to set up one’s database to work with spatial data through the PostGIS extension_.
 
---Create an initial PropertyDetails table that intentionally violates normalization principles
+_Create an initial PropertyDetails table that intentionally violates normalization principles_
 `CREATE TABLE PropertyDetails (  --  How to create a table
     PropertyID SERIAL PRIMARY KEY,  -- SERIAL = datatype for unique ID (it indicates that it is being controlled the database)
     City VARCHAR(100),               -- VARCHAR = datatype, useful for names, descriptions etc
@@ -34,7 +34,7 @@ _This including this query at the start of sql script helps to set up one’s da
     Utility VARCHAR(100),
     GeoLocation GEOMETRY(Point, 4326), -- Spatial data type
     CityPopulation INT                 -- INTEGER, type of datatype
-);'
+);`
 _This query was used for creating PropertyDetails table (initial table)_.
 
 _The following Queries are for inserting data into PropertyDetails table_.
@@ -45,7 +45,7 @@ VALUES
 ('950 Main Street', 'Worcester', 'MA', 'USA', 'Commercial', 'Electricity', 
  ST_GeomFromText('POINT(42.2504899 -71.827456)', 4326), 
  103872)
-;'
+;`
 
 `INSERT INTO PropertyDetails 
 (Address, City, State, Country, ZoningType, Utility, GeoLocation, CityPopulation)
@@ -53,7 +53,7 @@ VALUES
 ('100 Mayfield Street', 'Worcester', 'MA', 'USA', 'Commercial', 'Gas', 
  ST_GeomFromText('POINT(42.2504899 -71.827456)', 4326), 
  103872)
-;'
+;`
 
 `INSERT INTO PropertyDetails 
 (Address, City, State, Country, ZoningType, Utility, GeoLocation, CityPopulation)
@@ -61,7 +61,7 @@ VALUES
 ('124 Canterbury Street', 'Worcester', 'MA', 'USA', 'Residential', 'Water supply', 
  ST_GeomFromText('POINT(42.2469458 -71.8177652)', 4326), 
  103872)
-;'
+;`
 
 `INSERT INTO PropertyDetails 
 (Address, City, State, Country, ZoningType, Utility, GeoLocation, CityPopulation)
@@ -77,7 +77,7 @@ VALUES
 ('69 Downing Street', 'Worcester', 'MA', 'USA', 'Residential', 'Sewage', 
  ST_GeomFromText('POINT(42.2532199 -71.8244847)', 4326), 
  103872)
-;'
+;`
 
 
 _Normalizing to 3NF_.
@@ -162,14 +162,14 @@ WHERE ST_DWithin(
 _This query is used to find properties within a certain radius of the given location_.
 
 ### Uploading Images
-![This is the screenshot of CityDemographics table](images/CityDemographics_table.PNG)
-![This is the screenshot of Propertydetails table](images/Propertydetails_table.PNG)
-![This is the screenshot of Propertydetails(cont) table](images/Propertydetails(cont)_table.PNG)
-![This is the screenshot of ModifiedPropertydetails table](images/MordifiedPropertydetails_table.PNG)
-![This is the screenshot of ModifiedPropertydetails2 table(images/ModifiedPropertydetails2_table.PNG)
-![This is the screenshot of Properties_Within_a_radius table](images/Properties_Within_a_radius_table.PNG)
-![This is the screenshot of Propertyutilities table](images/Propertyutilities_table.PNG)
-![This is the screenshot of Propertyzoning table](images/Propertyzoning _table.PNG)
+![This is the screenshot of CityDemographics table](Images/CityDemographics_table.PNG)
+![This is the screenshot of Propertydetails table](Images/Propertydetails_table.PNG)
+![This is the screenshot of Propertydetails(cont) table](Images/Propertydetails(cont)_table.PNG)
+![This is the screenshot of ModifiedPropertydetails table](Images/MordifiedPropertydetails_table.PNG)
+![This is the screenshot of ModifiedPropertydetails2 table(Images/ModifiedPropertydetails2_table.PNG)
+![This is the screenshot of Properties_Within_a_radius table](Images/Properties_Within_a_radius_table.PNG)
+![This is the screenshot of Propertyutilities table](Images/Propertyutilities_table.PNG)
+![This is the screenshot of Propertyzoning table](Images/Propertyzoning_table.PNG)
 
 ### Challenges Encountered
 -Due to frequent modification to the initial table created which also often require adjustments across the other tables created, this adaptability was challenging for me to manage effectively. 
