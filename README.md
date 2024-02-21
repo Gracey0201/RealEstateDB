@@ -166,8 +166,8 @@ _This query is used to find properties within a certain radius of the given loca
 ![This is the screenshot of Propertydetails table](Images/Propertydetails_table.PNG)
 ![This is the screenshot of Propertydetails(cont) table](Images/Propertydetails_table(cont).PNG)
 ![This is the screenshot of ModifiedPropertydetails table](Images/ModifiedPropertydetails_table.PNG)
-![This is the screenshot of ModifiedPropertydetails2 table](Images/ModifiedProperydetails2_table.PNG
-![This is the screenshot of Properties_Within_a_radius table](Properties_Within _a_radius_table.PNG)
+![This is the screenshot of ModifiedProperydetails2 table](Images/ModifiedProperydetails2_table.PNG
+![This is the screenshot of Properties_Within_a_radius table](Images/Properties_Within _a_radius_table.PNG)
 ![This is the screenshot of Propertyutilities table](Images/Propertyutilities_table.PNG)
 ![This is the screenshot of Propertyzoning table](Propertyzoning_table.PNG)
 
