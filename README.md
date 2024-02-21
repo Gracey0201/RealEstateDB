@@ -162,14 +162,14 @@ WHERE ST_DWithin(
 _This query is used to find properties within a certain radius of the given location_.
 
 ### Uploading Images
-![This is the screenshot of CityDemographics table](Images/CityDemographics_table.PNG)
+![This is the screenshot of CityDemographics table](Images/Citydemographics_table.PNG)
 ![This is the screenshot of Propertydetails table](Images/Propertydetails_table.PNG)
-![This is the screenshot of Propertydetails(cont) table](Images/Propertydetails(cont)_table.PNG)
-![This is the screenshot of ModifiedPropertydetails table](Images/MordifiedPropertydetails_table.PNG)
-![This is the screenshot of ModifiedPropertydetails2 table](Images/ModifiedProperydetails2_table.PNG)
-![This is the screenshot of Properties_Within_a_radius table](Images/Properties_Within_a_radius_table.PNG)
+![This is the screenshot of Propertydetails(cont) table](Images/Propertydetails_table(cont).PNG)
+![This is the screenshot of ModifiedPropertydetails table](Images/ModifiedPropertydetails_table.PNG)
+![This is the screenshot of ModifiedPropertydetails2 table](Images/ModifiedProperydetails2_table.PNG
+![This is the screenshot of Properties_Within_a_radius table](Properties_Within _a_radius_table.PNG)
 ![This is the screenshot of Propertyutilities table](Images/Propertyutilities_table.PNG)
-![This is the screenshot of Propertyzoning table](Images/Propertyzoning_table.PNG)
+![This is the screenshot of Propertyzoning table](Propertyzoning_table.PNG)
 
 ### Challenges Encountered
 -Due to frequent modification to the initial table created which also often require adjustments across the other tables created, this adaptability was challenging for me to manage effectively. 
